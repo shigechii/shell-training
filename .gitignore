@@ -1,3 +1,5 @@
 logs/*.log
 
 .DS_Store
+
+**/data/data_file
