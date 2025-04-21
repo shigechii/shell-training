@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sed stream editor
+# 標準入力などを読みながら、その場でテキストの編集・加工を行う
+
 DATA_FILE_PATH="$(cd "$(dirname "$0")/data" && pwd)/members1.txt"
 
 # "女"を含む行を抜き出し、各行について:女: => :女性:に置換
